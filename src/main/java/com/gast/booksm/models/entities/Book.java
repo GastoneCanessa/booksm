@@ -29,6 +29,5 @@ public class Book
     @Column(unique = true, nullable = false)
     private String isbn;
     private BigDecimal price;
-    private int availableq;
-  
+    private Boolean availableq;
 }
